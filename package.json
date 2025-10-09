@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "@clerk/tanstack-react-start": "https://pkg.pr.new/@clerk/tanstack-react-start@6859",
-    "@tanstack/react-router": "^1.132.37",
-    "@tanstack/react-router-devtools": "^1.132.37",
-    "@tanstack/react-start": "^1.132.38",
+    "@tanstack/react-router": "^1.132.47",
+    "@tanstack/react-router-devtools": "^1.132.51",
+    "@tanstack/react-start": "^1.132.51",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
