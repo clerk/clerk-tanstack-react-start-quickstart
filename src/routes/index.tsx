@@ -20,7 +20,7 @@ function Home() {
       </SignedIn>
       <SignedOut>
         <p>You are signed out</p>
-        <SignInButton mode="modal" />
+        <SignInButton />
       </SignedOut>
     </div>
   )
