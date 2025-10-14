@@ -32,10 +32,10 @@ Clerk is a developer-first authentication and user management solution. It provi
 After following the [Clerk TanStack Start quickstart](https://clerk.com/docs/quickstarts/tanstack-start?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=08-05-2023&utm_term=clerk-tanstack-start-quickstart), you will have learned how to:
 
 - Create a new TanStack Start application
-- Install `@clerk/tanstack-start@beta`
+- Install `@clerk/tanstack-react-start`
 - Set up your environment keys
+- Add `clerkMiddleware()` to your app
 - Wrap your Root Component with `<ClerkProvider />`
-- Configure `clerkHandler()` in the server handler entrypoint
 - Use Clerk components to protect your content
 - Embed the `<SignInButton />` and `<SignOutButton />`
 - Deploy your application
