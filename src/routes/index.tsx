@@ -1,8 +1,8 @@
 import {
-  SignedIn,
   UserButton,
-  SignedOut,
+  Show,
   SignInButton,
+  SignUpButton,
 } from '@clerk/tanstack-react-start'
 import { createFileRoute } from '@tanstack/react-router'
 
@@ -14,14 +14,13 @@ function Home() {
   return (
     <div>
       <h1>Index Route</h1>
-      <SignedIn>
-        <p>You are signed in</p>
+      <Show when="signed-in">
         <UserButton />
-      </SignedIn>
-      <SignedOut>
-        <p>You are signed out</p>
+      </Show>
+      <Show when="signed-out">
         <SignInButton />
-      </SignedOut>
+        <SignUpButton />
+      </Show>
     </div>
   )
 }
