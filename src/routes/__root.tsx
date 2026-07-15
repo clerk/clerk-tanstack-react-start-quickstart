@@ -2,28 +2,15 @@
 import * as React from 'react'
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
 import { ClerkProvider } from '@clerk/tanstack-react-start'
-import {
-  HeadContent,
-  Outlet,
-  Scripts,
-  createRootRoute,
-} from '@tanstack/react-router'
+import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
 
 export const Route = createRootRoute({
-  component: RootComponent,
+  shellComponent: RootDocument,
 })
-
-function RootComponent() {
-  return (
-    <RootDocument>
-      <Outlet />
-    </RootDocument>
-  )
-}
 
 function RootDocument({ children }: { children: React.ReactNode }) {
   return (
-    <html>
+    <html lang="en">
       <head>
         <HeadContent />
       </head>
