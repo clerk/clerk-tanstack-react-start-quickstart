@@ -37,7 +37,7 @@ After following the [Clerk TanStack Start quickstart](https://clerk.com/docs/qui
 - Add `clerkMiddleware()` to your app
 - Wrap your Root Component with `<ClerkProvider />`
 - Use Clerk components to protect your content
-- Embed the `<SignInButton />` and `<SignOutButton />`
+- Embed the `<SignInButton />`, `<SignUpButton />`, and `<UserButton />`
 - Deploy your application
 
 ## Running the template
