@@ -2,6 +2,7 @@ import {
   Show,
   UserButton,
   SignInButton,
+  SignUpButton,
 } from '@clerk/tanstack-react-start'
 import { createFileRoute, Link } from '@tanstack/react-router'
 
@@ -19,6 +20,7 @@ function Home() {
       </Show>
       <Show when="signed-out">
         <SignInButton />
+        <SignUpButton />
       </Show>
     </div>
   )
